@@ -10,11 +10,6 @@ class Cart
 {
     private $products;
 
-    public function addProduct(Product $product)
-    {
-        $this->products[] = $product;
-    }
-
     public function printCart()
     {
         /** @var Product $product */
@@ -33,4 +28,8 @@ class Cart
         return $total;
     }
 
+    public function addProduct(Product $product)
+    {
+        $this->products[] = $product;
+    }
 }
