@@ -1,7 +1,7 @@
 .DEFAULT_GOAL := help
 
 singleton: ## Design Patterns Creational
-	./java.sh DesignPatterns/Singleton/index.java
+	./java.sh DesignPatterns/Singleton/SingletonInstantiator.java
 
 openclose: ## Open Close SOLID
 	./java.sh Solid/OpenClosePrincipe/index.java
