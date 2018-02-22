@@ -3,6 +3,9 @@
 singleton: ## Design Patterns Creational
 	./php.sh DesignPatterns/Singleton/index.php
 
+builder: ## Design Patterns Creational
+	./php.sh DesignPatterns/Creational/Builder/index.php
+
 openclose: ## Open Close SOLID
 	./php.sh Solid/OpenClosePrincipe/index.php
 
