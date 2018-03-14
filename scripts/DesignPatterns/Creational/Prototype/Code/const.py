@@ -1,0 +1,3 @@
+class const:
+	SHEEP_DEFENSE	= 1000
+	SHEEP_MANA		= 500
